@@ -6,9 +6,9 @@ Gem::Specification.new do |gem|
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   gem.name               = 'rack-sparql'
-  gem.homepage           = 'http://github.com/datagraph'
+  gem.homepage           = 'https://github.com/datagraph'
   gem.license            = 'Public Domain' if gem.respond_to?(:license=)
-  gem.summary            = 'SPARQL 1.0 HTTP API for Rack.'
+  gem.summary            = 'SPARQL 1.0 HTTP API for Rack applications.'
   gem.description        = 'Rack middleware providing a SPARQL 1.0-compatible HTTP endpoint.'
   gem.rubyforge_project  = 'datagraph'
 
@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf',       '~> 0.3.0'
   gem.add_runtime_dependency     'rack',      '>= 1.0'
   gem.add_development_dependency 'yard' ,     '>= 0.6.0'
-  gem.add_development_dependency 'rspec',     '>= 1.3.0'
+  gem.add_development_dependency 'rspec',     '>= 2.1.0'
   gem.add_development_dependency 'rdf-spec',  '~> 0.3.0'
   gem.add_development_dependency 'rack-test', '>= 0.5.6'
   gem.post_install_message       = nil
