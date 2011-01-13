@@ -1,4 +1,4 @@
---title "Rack::SPARQL - SPARQL 1.0 HTTP API for Rack"
+--title "Rack::SPARQL - SPARQL 1.0 HTTP API for Rack Applications"
 --output-dir doc/yard
 --protected
 --no-private
