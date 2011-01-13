@@ -5,4 +5,10 @@ begin
   require 'rakefile' # http://github.com/bendiken/rakefile
 rescue LoadError => e
 end
+
 require 'rack/sparql'
+
+desc "Build the rack-sparql-#{File.read('VERSION').chomp}.gem file"
+task :build do
+  sh "gem build .gemspec"
+end
