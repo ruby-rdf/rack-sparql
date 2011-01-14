@@ -4,6 +4,7 @@ require 'json' # @see http://rubygems.org/gems/json_pure
 
 module Rack
   module SPARQL
-    autoload :VERSION, 'rack/sparql/version'
+    autoload :Middleware, 'rack/sparql/middleware'
+    autoload :VERSION,    'rack/sparql/version'
   end
 end
