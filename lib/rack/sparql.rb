@@ -6,6 +6,9 @@ module Rack
   module SPARQL
     autoload :Fault,      'rack/sparql/fault'
     autoload :Middleware, 'rack/sparql/middleware'
+    autoload :Endpoint,   'rack/sparql/endpoint'
+    autoload :Server,     'rack/sparql/server'
+    autoload :Proxy,      'rack/sparql/proxy'
     autoload :VERSION,    'rack/sparql/version'
   end
 end
